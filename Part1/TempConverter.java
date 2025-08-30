@@ -8,7 +8,7 @@ Round the Celsius result to 1 decimal place
 Include appropriate labels and units in the output
  */
 
-package Chapter1;
+package Part1;
 
 import java.util.Scanner;
 

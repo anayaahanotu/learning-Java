@@ -15,7 +15,7 @@ Display the numerical grade and corresponding letter grade
 Handle invalid input (grades outside 0-100 range) with an error message
  */
 
-package Chapter1;
+package Part1;
 
 import java.util.Scanner;
 

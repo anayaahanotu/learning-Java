@@ -9,7 +9,7 @@ Display the final total amount
 Format all monetary values to 2 decimal places
  */
 
-package Chapter1;
+package Part1;
 
 import java.util.Scanner;
 

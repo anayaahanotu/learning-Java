@@ -9,7 +9,7 @@ Add a welcome message at the bottom
 Use comments to label each section of your sign
  */
 
-package Chapter1;
+package Part1;
 
 public class WelcomeSign{
 
