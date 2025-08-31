@@ -76,5 +76,7 @@ Include theater name and "Thank you for visiting!" message
 package MiniProjects;
 
 public class TicketCalculator {
-    
+    public static void main(String[] args) {
+        
+    }
 }
