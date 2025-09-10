@@ -78,7 +78,35 @@ package MiniProjects;
 import java.util.Scanner;
 
 public class TicketCalculator {
+    //create enumerated type for seating
+
+    //create enumerated type for movie types
+
     public static void main(String[] args) {
+        //initialize all discounts
+        //initialize seating price
+        //initialize tax
+        //initialize hasID
+
+        //ask customer for their name, age, and day and time of visit
+
+        //calculate the subtotal
+        //apply discounts
+        //apply tax
+        //ask user how much they paid
+        //calculate exact change needed
         
+
+        //print reciept: customer name and day of visit
+        //Movie selection and seating choice
+        //number of tickets purchased
+        //base price per ticket
+        //all discounts applied
+        //subtotal
+        //tax
+        //final total
+        //payment recieved and change breakdown
+        //thank you message
+
     }
 }
