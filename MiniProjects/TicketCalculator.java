@@ -83,8 +83,18 @@ public class TicketCalculator {
     //create enumerated type for movie types
 
     public static void main(String[] args) {
+        //initialize movie ticket price
+        float REGULAR_TICKET = 12.50f;
+        float THREED_TICKET = 16.75f;
+        float IMAX_TICKET = 19.25f;
+        
         //initialize all discounts
+        float CHILD_DISCOUNT = 0.25f;
+        float SENIOR_DISCOUNT = 0.20f;
+        float STUDENT_DISCOUNT = 0.15f;
+
         //initialize seating price
+
         //initialize tax
         //initialize hasID
 
