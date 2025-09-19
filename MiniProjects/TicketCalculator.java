@@ -143,8 +143,6 @@ public class TicketCalculator {
                 + "4: Thursday\n"
                 + "5: Friday\n"
                 + "6: Saturday\n"
-                + "7: Sunday\n> "
-
         );        
 
         DaysOfWeek visitDay = DaysOfWeek.values()[input.nextShort()];
@@ -367,10 +365,27 @@ public class TicketCalculator {
         System.out.printf("subtotal: $%.2f\n", subtotal);
 
         //tax
+        System.out.println("tax: " + (TAX * 100) + "%");
         
         //final total
+        System.out.printf("total: $%.2f\n", total);
+
         //payment recieved and change breakdown
+        System.out.println(
+            "Amount in Cash Change:\n" 
+                + "20s: " + num20s
+                + "\n10s: " + num10s
+                + "\n5s: " + num5s
+                + "\n1s: " + num1s
+                + "\nQuarters: " + numQuarters
+                + "\nDimes: " + numDimes
+                + "\nnickels: " + numNickels
+                + "\npennies: " + numPennies
+            );
+
         //thank you message
+        System.out.println("Thank you :)");
+
 
     }
 }
