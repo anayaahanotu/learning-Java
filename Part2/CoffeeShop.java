@@ -15,8 +15,6 @@ Use appropriate data types (double for prices, int for quantities)
 
  import java.util.Scanner;
 
-import javax.swing.text.TableView.TableCell;
-
 public class CoffeeShop {
     public static void main(String[] args) {
         //define the prices of coffee, pastries, and tax rate
