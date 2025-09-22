@@ -15,6 +15,8 @@ Use appropriate data types (double for prices, int for quantities)
 
  import java.util.Scanner;
 
+import javax.swing.text.TableView.TableCell;
+
 public class CoffeeShop {
     public static void main(String[] args) {
         //define the prices of coffee, pastries, and tax rate
@@ -55,6 +57,22 @@ public class CoffeeShop {
 
         //close the scanner
         input.close();
+
+        //print the reciept stating what is ordered, subtotal,
+        System.out.println(
+            "\nReciept\n"
+                + "-----------------------------------"
+        );
+        System.out.println(
+            "Num coffees ordered: " + numCoffees
+                + "\nNum Pastries ordered: " + numCoffees
+            );
+
+        //tax, and the total
+        System.out.printf(
+            "Subtotal: $%.2f\nTax price: $%.2f\nTotal: $%.2f\n",
+            subtotal, taxPrice, finalTotal
+            );
 
 
     }
