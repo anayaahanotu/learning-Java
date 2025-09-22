@@ -53,8 +53,6 @@ public class CoffeeShop {
         //calculate the final total
         finalTotal = taxPrice + subtotal;
 
-
-
         //close the scanner
         input.close();
 
